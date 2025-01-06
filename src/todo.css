@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+body{
+    /* background: linear-gradient(to right,  #c5f9d7, #f7d486, #f27a7d); */
+    background-image: url("https://i.pinimg.com/originals/ac/54/a1/ac54a128942c750799c2c1fe144d2467.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+.App {
+    text-align: center;
+    padding: 20px;
+}
+.App h1{
+    font-family: "Bebas Neue";
+    font-weight: lighter;
+}
+
+.task-input{
+    margin-bottom: 20px;
+}
+
+.task-input input{
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.task-input button{
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #008A5E;
+    color: white;
+    border-radius: 15px;
+    font-family: 'Patrick Hand', sans-serif;
+    font-size: 15px;
+}
+
+/* #7fb89c */
+.task-input button:hover{
+    background-color: #7fb89c;
+    color: black;
+    box-shadow: 4px 4px 5px rgba(4, 4, 4, 0.5), -4px -4px 5px rgba(4, 4, 4, 0.5);
+}
+
+.task-list{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.task-list ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-list li {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    /* justify-content: center; */
+    color: black;
+    background: rgb(60, 140, 231, 0.3)
+}
+
+.task-list .my-Text{
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+}
+.task-list button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Patrick Hand', sans-serif;
+    font-size: 15px;
+    border-radius:10px;
+    color: white;
+}
+.task-list .btn-Edit{
+    background-color: #3c8ce7;
+}
+.task-list .btn-Edit:hover{
+    background-color: #62cff4;
+    color: black;
+    box-shadow: 4px 4px 5px rgba(4, 4, 4, 0.5), -4px -4px 5px rgba(4, 4, 4, 0.5);
+}
+.task-list .btn-delete{
+ background-color: #e51313;   
+}
+/* #eb4035 */
+.task-list .btn-delete:hover{
+    background-color: #fa897b;   
+    color: black;
+    border-radius: 5px;
+    box-shadow: 4px 4px 5px rgba(4, 4, 4, 0.5), -4px -4px 5px rgba(4, 4, 4, 0.5);
+   }
+
+.task-list .my-Text{
+    font-family: 'Patrick Hand', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
